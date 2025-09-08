@@ -22,8 +22,6 @@ const mockFn = jest.fn().mockResolvedValue({ id: 'test' });
 // Error: 型 'object' の引数を型 'never' のパラメーターに割り当てることはできません
 ```
 
-こんな型エラーに困った経験はありませんか？実はとても簡単に解決できます。
-
 ## 原因
 
 このエラーの原因は、`jest.fn()`を型情報なしで呼び出すことです。TypeScriptが戻り値の型を推論できないため、`mockResolvedValue`の引数が`never`型になってしまいます。
