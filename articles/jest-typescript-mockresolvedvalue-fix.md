@@ -1,5 +1,5 @@
 ---
-title: "Jest mockResolvedValueの型エラーを解決"
+title: "Jest mockResolvedValueの型エラーを1分で解決"
 emoji: "🧪"
 type: "tech"
 topics: ["初心者向け","jest", "typescript", "testing", "javascript"]
